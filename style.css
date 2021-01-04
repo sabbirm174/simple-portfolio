@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    font-weight: 700;
+    line-height: 57.5px;
+    margin: 9px 0px;
+}
+.small-h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 18.72px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 10px 0px;
+
+}
+p{
+    font-size: 16px;
+    line-height: 35.2px;
+    letter-spacing: 1;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.all-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+section{
+    padding-top:40px;
+    width:100%;
+    margin-bottom:100px;
+    
+    
+
+}
+.c-orange{
+    color: orange;
+}
+ .equal-width{
+     width: 40%;
+     float: left;
+     margin-left: 5% ;
+ }
+ #equal-width {
+    width: 43%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+ .equal-width img{
+     width: 100%;
+ }
+ .b-shadow{
+    -webkit-box-shadow: 5px 5px 39px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 39px 5px rgba(0,0,0,0.1);
+    padding: 30px;
+    height: 300px;
+    
+ }
+ #b1-gradient{
+     border-left:7px solid;  /* fallback for old browsers */
+     border-image: -webkit-linear-gradient(180deg, rgb(180, 149, 136), tomato);  /* Chrome 10-25, Safari 5.1-6 */
+     border-image: linear-gradient( 180deg,rgb(180, 143, 129), tomato); 
+     border-image-slice: 1;
+     background: white;
+ }
+ #b2-gradient{
+    border-left:7px solid;  /* fallback for old browsers */
+    border-image: -webkit-linear-gradient(180deg, rgb(180, 149, 136), tomato);  /* Chrome 10-25, Safari 5.1-6 */
+    border-image: linear-gradient( 180deg,blue, cyan); 
+    border-image-slice: 1;
+    background: white;
+}
+ .bg-bottom-section{
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     height: 435px;
+ }
+ footer{
+     text-align: center;
+     font-size: 12px;
+ }
+ .btn{
+     margin-top: 30px;
+ }
+ .btn-grad{
+     text-decoration: none;
+     padding: 10px 30px;
+     background: linear-gradient(45deg, blue,cyan);
+     font-weight: 700;
+     border-radius: 2px;
+     color: #fff;
+
+ }
+ 
